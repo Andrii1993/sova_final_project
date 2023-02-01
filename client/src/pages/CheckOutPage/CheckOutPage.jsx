@@ -150,6 +150,7 @@ const CheckOutPage = () => {
       <div className="breadcrumbs_login">
         <Breadcrumbs/>
       </div>
+      <div className="container">
       <Formik
         initialValues={{
           email: userInfo?.email || "",
@@ -192,6 +193,7 @@ const CheckOutPage = () => {
         </Modal>
       }
       {errResult && <p className="login__registration-error">{errResult}</p>}
+       </div>
     </div>
   );
 };
