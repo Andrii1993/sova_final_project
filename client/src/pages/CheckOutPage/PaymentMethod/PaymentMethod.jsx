@@ -44,13 +44,7 @@ const PaymentMethod = (props) => {
                 className="payment-method-section__img"
               />
             </a>
-            <a href="#">
-              <img
-                  src="img/payment-method/Icon-five.png"
-                  alt="card"
-                  className="payment-method-section__img visa"
-                />
-            </a>
+            
           </div>
         </div>
 
